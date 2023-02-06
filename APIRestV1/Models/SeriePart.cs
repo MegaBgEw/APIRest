@@ -1,6 +1,5 @@
 ﻿using APIRestV1.Models.EntityFramework;
 using Microsoft.AspNetCore.HttpOverrides;
-
 namespace APIRestV1.Models.EntityFramework
 {
     public partial class Serie
