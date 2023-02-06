@@ -123,7 +123,7 @@ namespace APIRestV1.Controllers.Tests
         public void Post_ValidObjectPassed_ReturnsObject()
         {
             // Act
-            Serie serie = new Serie("No", "Man's", 5, 1, 2000, "HBO");
+            Serie serie = new Serie(0,"No", "Man's", 5, 1, 2000, "HBO");
             var result = controller.PostSerie(serie);
 
             // Assert
